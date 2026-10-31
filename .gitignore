@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Yelp review text cannot be redistributed: build it locally with src/build_sample.py
+data/coffee_tea_sample.csv
+yelp_dataset/

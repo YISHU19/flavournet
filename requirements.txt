@@ -1,0 +1,14 @@
+pandas==3.1.0
+networkx==3.7
+scikit-learn==1.9.1
+matplotlib==3.11.2
+spacy==3.8.18
+yake==0.7.3
+python-louvain==0.16
+textblob==0.20.1
+wordcloud==1.9.6
+dash==4.5.0
+dash-cytoscape==1.0.2
+plotly==7.1.0
+jupyter
+# then: python -m spacy download en_core_web_sm

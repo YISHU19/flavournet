@@ -1,0 +1,4306 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d10" for="edge" attr.name="target_type" attr.type="string" />
+  <key id="d9" for="edge" attr.name="source_type" attr.type="string" />
+  <key id="d8" for="edge" attr.name="review_count" attr.type="long" />
+  <key id="d7" for="edge" attr.name="normalized_weight" attr.type="double" />
+  <key id="d6" for="edge" attr.name="pmi_score" attr.type="double" />
+  <key id="d5" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d4" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d3" for="node" attr.name="importance" attr.type="long" />
+  <key id="d2" for="node" attr.name="importance" attr.type="double" />
+  <key id="d1" for="node" attr.name="frequency" attr.type="long" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="kind">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">533</data>
+      <data key="d2">0.206284</data>
+    </node>
+    <node id="vietnamese">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">81</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="chicago">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">28</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="long">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">805</data>
+      <data key="d2">0.185362</data>
+    </node>
+    <node id="room">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">326</data>
+      <data key="d2">0.254074</data>
+    </node>
+    <node id="bit">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">750</data>
+      <data key="d2">0.186336</data>
+    </node>
+    <node id="tucson">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">131</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="friend">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">939</data>
+      <data key="d2">0.192643</data>
+    </node>
+    <node id="thing">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">958</data>
+      <data key="d2">0.170379</data>
+    </node>
+    <node id="find">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1200</data>
+      <data key="d2">0.178441</data>
+    </node>
+    <node id="restaurant">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">894</data>
+      <data key="d2">0.2074</data>
+    </node>
+    <node id="brunch">
+      <data key="d0">EXPERIENCE</data>
+      <data key="d1">558</data>
+      <data key="d2">0.254571</data>
+    </node>
+    <node id="portion">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">342</data>
+      <data key="d2">0.230992</data>
+    </node>
+    <node id="milk">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">723</data>
+      <data key="d2">0.25156</data>
+    </node>
+    <node id="variety">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">342</data>
+      <data key="d2">0.225594</data>
+    </node>
+    <node id="bread">
+      <data key="d0">FOOD</data>
+      <data key="d1">516</data>
+      <data key="d2">0.236224</data>
+    </node>
+    <node id="thank">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">356</data>
+      <data key="d2">0.25925</data>
+    </node>
+    <node id="caramel">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">167</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="turkey">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">142</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="dish">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">428</data>
+      <data key="d2">0.254595</data>
+    </node>
+    <node id="years">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">0</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="seat">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">446</data>
+      <data key="d2">0.198775</data>
+    </node>
+    <node id="couple">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">352</data>
+      <data key="d2">0.201604</data>
+    </node>
+    <node id="pancake">
+      <data key="d0">FOOD</data>
+      <data key="d1">293</data>
+      <data key="d2">0.327906</data>
+    </node>
+    <node id="times">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">2</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="kid">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">287</data>
+      <data key="d2">0.277361</data>
+    </node>
+    <node id="meat">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">273</data>
+      <data key="d2">0.253062</data>
+    </node>
+    <node id="high">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">420</data>
+      <data key="d2">0.208786</data>
+    </node>
+    <node id="sandwich">
+      <data key="d0">FOOD</data>
+      <data key="d1">1616</data>
+      <data key="d2">0.238578</data>
+    </node>
+    <node id="donut">
+      <data key="d0">FOOD</data>
+      <data key="d1">1212</data>
+      <data key="d2">0.44543</data>
+    </node>
+    <node id="customer">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1067</data>
+      <data key="d2">0.202949</data>
+    </node>
+    <node id="location">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1196</data>
+      <data key="d2">0.227843</data>
+    </node>
+    <node id="size">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">304</data>
+      <data key="d2">0.211347</data>
+    </node>
+    <node id="pecan">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">60</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="barista">
+      <data key="d0">SERVICE</data>
+      <data key="d1">492</data>
+      <data key="d2">0.257359</data>
+    </node>
+    <node id="pastry">
+      <data key="d0">FOOD</data>
+      <data key="d1">523</data>
+      <data key="d2">0.246822</data>
+    </node>
+    <node id="open">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">761</data>
+      <data key="d2">0.198688</data>
+    </node>
+    <node id="take">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">991</data>
+      <data key="d2">0.179361</data>
+    </node>
+    <node id="mexican">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">62</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="quality">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">499</data>
+      <data key="d2">0.223376</data>
+    </node>
+    <node id="tell">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">885</data>
+      <data key="d2">0.183223</data>
+    </node>
+    <node id="small">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">958</data>
+      <data key="d2">0.187305</data>
+    </node>
+    <node id="beignet">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">288</data>
+      <data key="d2">0.441346</data>
+    </node>
+    <node id="selection">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">521</data>
+      <data key="d2">0.230715</data>
+    </node>
+    <node id="city">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">324</data>
+      <data key="d2">0.245097</data>
+    </node>
+    <node id="boise">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">40</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="hour">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">584</data>
+      <data key="d2">0.220792</data>
+    </node>
+    <node id="day">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1325</data>
+      <data key="d2">0.17554</data>
+    </node>
+    <node id="get">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">2465</data>
+      <data key="d2">0.163294</data>
+    </node>
+    <node id="water">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">347</data>
+      <data key="d2">0.25093</data>
+    </node>
+    <node id="happy">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">490</data>
+      <data key="d2">0.22273</data>
+    </node>
+    <node id="iced">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">479</data>
+      <data key="d2">0.253998</data>
+    </node>
+    <node id="bean">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">320</data>
+      <data key="d2">0.251467</data>
+    </node>
+    <node id="coffee">
+      <data key="d0">DRINK</data>
+      <data key="d1">6356</data>
+      <data key="d2">0.198386</data>
+    </node>
+    <node id="korean">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">39</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="meal">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">594</data>
+      <data key="d2">0.217716</data>
+    </node>
+    <node id="biscuit">
+      <data key="d0">FOOD</data>
+      <data key="d1">315</data>
+      <data key="d2">0.341139</data>
+    </node>
+    <node id="visit">
+      <data key="d0">EXPERIENCE</data>
+      <data key="d1">1087</data>
+      <data key="d2">0.201345</data>
+    </node>
+    <node id="offer">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">512</data>
+      <data key="d2">0.198668</data>
+    </node>
+    <node id="old">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">433</data>
+      <data key="d2">0.230105</data>
+    </node>
+    <node id="line">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">721</data>
+      <data key="d2">0.220374</data>
+    </node>
+    <node id="omg">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">78</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="hot">
+      <data key="d0">QUALITY</data>
+      <data key="d1">837</data>
+      <data key="d2">0.208542</data>
+    </node>
+    <node id="vegan">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">309</data>
+      <data key="d2">0.317356</data>
+    </node>
+    <node id="space">
+      <data key="d0">AMBIENCE</data>
+      <data key="d1">406</data>
+      <data key="d2">0.242667</data>
+    </node>
+    <node id="use">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">327</data>
+      <data key="d2">0.233613</data>
+    </node>
+    <node id="manager">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">314</data>
+      <data key="d2">0.266858</data>
+    </node>
+    <node id="disappointed">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">154</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="experience">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">959</data>
+      <data key="d2">0.181421</data>
+    </node>
+    <node id="italian">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">146</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="bad">
+      <data key="d0">QUALITY</data>
+      <data key="d1">887</data>
+      <data key="d2">0.207271</data>
+    </node>
+    <node id="plenty">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">290</data>
+      <data key="d2">0.23181</data>
+    </node>
+    <node id="sauce">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">374</data>
+      <data key="d2">0.251342</data>
+    </node>
+    <node id="service">
+      <data key="d0">SERVICE</data>
+      <data key="d1">2546</data>
+      <data key="d2">0.166913</data>
+    </node>
+    <node id="star">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">816</data>
+      <data key="d2">0.199455</data>
+    </node>
+    <node id="table">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1169</data>
+      <data key="d2">0.188542</data>
+    </node>
+    <node id="potato">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">346</data>
+      <data key="d2">0.25049</data>
+    </node>
+    <node id="mcdonald">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">247</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="home">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">608</data>
+      <data key="d2">0.207021</data>
+    </node>
+    <node id="salad">
+      <data key="d0">FOOD</data>
+      <data key="d1">610</data>
+      <data key="d2">0.281904</data>
+    </node>
+    <node id="call">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">260</data>
+      <data key="d2">0.219581</data>
+    </node>
+    <node id="drink">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">2035</data>
+      <data key="d2">0.197553</data>
+    </node>
+    <node id="french">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">494</data>
+      <data key="d2">0.255996</data>
+    </node>
+    <node id="bowl">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">287</data>
+      <data key="d2">0.341392</data>
+    </node>
+    <node id="stl">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">32</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="roll">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">263</data>
+      <data key="d2">0.292751</data>
+    </node>
+    <node id="bar">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">588</data>
+      <data key="d2">0.237671</data>
+    </node>
+    <node id="choice">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">332</data>
+      <data key="d2">0.241588</data>
+    </node>
+    <node id="grab">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">336</data>
+      <data key="d2">0.229695</data>
+    </node>
+    <node id="morning">
+      <data key="d0">EXPERIENCE</data>
+      <data key="d1">775</data>
+      <data key="d2">0.208033</data>
+    </node>
+    <node id="enjoy">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">994</data>
+      <data key="d2">0.202307</data>
+    </node>
+    <node id="person">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">344</data>
+      <data key="d2">0.202673</data>
+    </node>
+    <node id="crepe">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">371</data>
+      <data key="d2">0.442765</data>
+    </node>
+    <node id="friendly">
+      <data key="d0">SERVICE</data>
+      <data key="d1">1871</data>
+      <data key="d2">0.174044</data>
+    </node>
+    <node id="check">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">633</data>
+      <data key="d2">0.200432</data>
+    </node>
+    <node id="dinner">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">289</data>
+      <data key="d2">0.250258</data>
+    </node>
+    <node id="carmel">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">37</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="sweet">
+      <data key="d0">QUALITY</data>
+      <data key="d1">973</data>
+      <data key="d2">0.191406</data>
+    </node>
+    <node id="review">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">648</data>
+      <data key="d2">0.182038</data>
+    </node>
+    <node id="huge">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">393</data>
+      <data key="d2">0.212478</data>
+    </node>
+    <node id="egg">
+      <data key="d0">FOOD</data>
+      <data key="d1">955</data>
+      <data key="d2">0.231516</data>
+    </node>
+    <node id="cup">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">746</data>
+      <data key="d2">0.217697</data>
+    </node>
+    <node id="menu">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1254</data>
+      <data key="d2">0.188251</data>
+    </node>
+    <node id="great">
+      <data key="d0">QUALITY</data>
+      <data key="d1">4028</data>
+      <data key="d2">0.175831</data>
+    </node>
+    <node id="cold">
+      <data key="d0">QUALITY</data>
+      <data key="d1">519</data>
+      <data key="d2">0.239002</data>
+    </node>
+    <node id="croissant">
+      <data key="d0">FOOD</data>
+      <data key="d1">307</data>
+      <data key="d2">0.330245</data>
+    </node>
+    <node id="half">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">393</data>
+      <data key="d2">0.223487</data>
+    </node>
+    <node id="husband">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">396</data>
+      <data key="d2">0.237723</data>
+    </node>
+    <node id="dutch">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">47</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="feel">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">873</data>
+      <data key="d2">0.183668</data>
+    </node>
+    <node id="favorite">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">895</data>
+      <data key="d2">0.217168</data>
+    </node>
+    <node id="bakery">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">304</data>
+      <data key="d2">0.28997</data>
+    </node>
+    <node id="parking">
+      <data key="d0">AMBIENCE</data>
+      <data key="d1">443</data>
+      <data key="d2">0.245726</data>
+    </node>
+    <node id="leche">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">38</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="leave">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">639</data>
+      <data key="d2">0.190533</data>
+    </node>
+    <node id="live">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">420</data>
+      <data key="d2">0.225371</data>
+    </node>
+    <node id="know">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1183</data>
+      <data key="d2">0.17266</data>
+    </node>
+    <node id="nola">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">120</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="greek">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">41</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="local">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">634</data>
+      <data key="d2">0.230061</data>
+    </node>
+    <node id="cuban">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">179</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="lot">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1007</data>
+      <data key="d2">0.185187</data>
+    </node>
+    <node id="vibe">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">328</data>
+      <data key="d2">0.256098</data>
+    </node>
+    <node id="cool">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">480</data>
+      <data key="d2">0.24015</data>
+    </node>
+    <node id="window">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">316</data>
+      <data key="d2">0.231335</data>
+    </node>
+    <node id="item">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">542</data>
+      <data key="d2">0.213255</data>
+    </node>
+    <node id="business">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">461</data>
+      <data key="d2">0.227383</data>
+    </node>
+    <node id="toast">
+      <data key="d0">FOOD</data>
+      <data key="d1">553</data>
+      <data key="d2">0.253796</data>
+    </node>
+    <node id="cafe">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">924</data>
+      <data key="d2">0.23094</data>
+    </node>
+    <node id="seating">
+      <data key="d0">AMBIENCE</data>
+      <data key="d1">605</data>
+      <data key="d2">0.204965</data>
+    </node>
+    <node id="boba">
+      <data key="d0">DRINK</data>
+      <data key="d1">327</data>
+      <data key="d2">0.42495</data>
+    </node>
+    <node id="fun">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">301</data>
+      <data key="d2">0.263984</data>
+    </node>
+    <node id="starbucks">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">41</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="butter">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">263</data>
+      <data key="d2">0.267753</data>
+    </node>
+    <node id="close">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">561</data>
+      <data key="d2">0.211691</data>
+    </node>
+    <node id="chocolate">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">875</data>
+      <data key="d2">0.253541</data>
+    </node>
+    <node id="area">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">893</data>
+      <data key="d2">0.200934</data>
+    </node>
+    <node id="option">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">866</data>
+      <data key="d2">0.207903</data>
+    </node>
+    <node id="night">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">366</data>
+      <data key="d2">0.248845</data>
+    </node>
+    <node id="latte">
+      <data key="d0">DRINK</data>
+      <data key="d1">951</data>
+      <data key="d2">0.243807</data>
+    </node>
+    <node id="chinese">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">44</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="burger">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">293</data>
+      <data key="d2">0.356367</data>
+    </node>
+    <node id="street">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">427</data>
+      <data key="d2">0.21526</data>
+    </node>
+    <node id="brew">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">370</data>
+      <data key="d2">0.263747</data>
+    </node>
+    <node id="reno">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">96</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="good">
+      <data key="d0">QUALITY</data>
+      <data key="d1">5869</data>
+      <data key="d2">0.151255</data>
+    </node>
+    <node id="cook">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">285</data>
+      <data key="d2">0.226373</data>
+    </node>
+    <node id="store">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">554</data>
+      <data key="d2">0.243309</data>
+    </node>
+    <node id="make">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">645</data>
+      <data key="d2">0.194549</data>
+    </node>
+    <node id="spot">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1011</data>
+      <data key="d2">0.210505</data>
+    </node>
+    <node id="flavor">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1269</data>
+      <data key="d2">0.20518</data>
+    </node>
+    <node id="ordered">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">0</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="free">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">580</data>
+      <data key="d2">0.238536</data>
+    </node>
+    <node id="fry">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">483</data>
+      <data key="d2">0.254526</data>
+    </node>
+    <node id="bagel">
+      <data key="d0">FOOD</data>
+      <data key="d1">746</data>
+      <data key="d2">0.38449</data>
+    </node>
+    <node id="care">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">265</data>
+      <data key="d2">0.23119</data>
+    </node>
+    <node id="large">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">543</data>
+      <data key="d2">0.205694</data>
+    </node>
+    <node id="american">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">74</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="ice">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">963</data>
+      <data key="d2">0.265004</data>
+    </node>
+    <node id="cheese">
+      <data key="d0">FOOD</data>
+      <data key="d1">919</data>
+      <data key="d2">0.222383</data>
+    </node>
+    <node id="bacon">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">442</data>
+      <data key="d2">0.251335</data>
+    </node>
+    <node id="gelato">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">306</data>
+      <data key="d2">0.447395</data>
+    </node>
+    <node id="slow">
+      <data key="d0">SERVICE</data>
+      <data key="d1">325</data>
+      <data key="d2">0.28425</data>
+    </node>
+    <node id="nashville">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">204</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="employee">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">582</data>
+      <data key="d2">0.251472</data>
+    </node>
+    <node id="love">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">2627</data>
+      <data key="d2">0.192929</data>
+    </node>
+    <node id="like">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">3301</data>
+      <data key="d2">0.148576</data>
+    </node>
+    <node id="treat">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">368</data>
+      <data key="d2">0.231759</data>
+    </node>
+    <node id="guy">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">365</data>
+      <data key="d2">0.241168</data>
+    </node>
+    <node id="sunday">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">288</data>
+      <data key="d2">0.233952</data>
+    </node>
+    <node id="beautiful">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">273</data>
+      <data key="d2">0.234827</data>
+    </node>
+    <node id="ethiopian">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">29</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="wife">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">272</data>
+      <data key="d2">0.267937</data>
+    </node>
+    <node id="time">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">3391</data>
+      <data key="d2">0.156421</data>
+    </node>
+    <node id="order">
+      <data key="d0">SERVICE</data>
+      <data key="d1">4138</data>
+      <data key="d2">0.174062</data>
+    </node>
+    <node id="place">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">5739</data>
+      <data key="d2">0.146427</data>
+    </node>
+    <node id="green">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">353</data>
+      <data key="d2">0.240998</data>
+    </node>
+    <node id="soup">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">289</data>
+      <data key="d2">0.299988</data>
+    </node>
+    <node id="yelp">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">239</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="donuts">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">0</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="chicken">
+      <data key="d0">FOOD</data>
+      <data key="d1">757</data>
+      <data key="d2">0.278444</data>
+    </node>
+    <node id="music">
+      <data key="d0">AMBIENCE</data>
+      <data key="d1">291</data>
+      <data key="d2">0.265572</data>
+    </node>
+    <node id="people">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1308</data>
+      <data key="d2">0.180439</data>
+    </node>
+    <node id="dessert">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">447</data>
+      <data key="d2">0.24009</data>
+    </node>
+    <node id="minute">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">855</data>
+      <data key="d2">0.208702</data>
+    </node>
+    <node id="server">
+      <data key="d0">SERVICE</data>
+      <data key="d1">445</data>
+      <data key="d2">0.234044</data>
+    </node>
+    <node id="new">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1020</data>
+      <data key="d2">0.193216</data>
+    </node>
+    <node id="tea">
+      <data key="d0">DRINK</data>
+      <data key="d1">1678</data>
+      <data key="d2">0.310238</data>
+    </node>
+    <node id="well">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1011</data>
+      <data key="d2">0.188482</data>
+    </node>
+    <node id="breakfast">
+      <data key="d0">EXPERIENCE</data>
+      <data key="d1">1939</data>
+      <data key="d2">0.220626</data>
+    </node>
+    <node id="read">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">288</data>
+      <data key="d2">0.221212</data>
+    </node>
+    <node id="wait">
+      <data key="d0">SERVICE</data>
+      <data key="d1">1830</data>
+      <data key="d2">0.199267</data>
+    </node>
+    <node id="big">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">574</data>
+      <data key="d2">0.199094</data>
+    </node>
+    <node id="thai">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">89</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="little">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1570</data>
+      <data key="d2">0.180474</data>
+    </node>
+    <node id="taste">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1342</data>
+      <data key="d2">0.178996</data>
+    </node>
+    <node id="say">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">993</data>
+      <data key="d2">0.188503</data>
+    </node>
+    <node id="nice">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1809</data>
+      <data key="d2">0.183544</data>
+    </node>
+    <node id="helpful">
+      <data key="d0">SERVICE</data>
+      <data key="d1">320</data>
+      <data key="d2">0.236884</data>
+    </node>
+    <node id="try">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">2553</data>
+      <data key="d2">0.160915</data>
+    </node>
+    <node id="shop">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">1425</data>
+      <data key="d2">0.20394</data>
+    </node>
+    <node id="have">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">271</data>
+      <data key="d2">0.2103</data>
+    </node>
+    <node id="door">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">332</data>
+      <data key="d2">0.199322</data>
+    </node>
+    <node id="espresso">
+      <data key="d0">DRINK</data>
+      <data key="d1">441</data>
+      <data key="d2">0.266839</data>
+    </node>
+    <node id="atmosphere">
+      <data key="d0">AMBIENCE</data>
+      <data key="d1">783</data>
+      <data key="d2">0.226898</data>
+    </node>
+    <node id="cake">
+      <data key="d0">FOOD</data>
+      <data key="d1">779</data>
+      <data key="d2">0.325375</data>
+    </node>
+    <node id="mcdonalds">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">0</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="busy">
+      <data key="d0">AMBIENCE</data>
+      <data key="d1">512</data>
+      <data key="d2">0.210439</data>
+    </node>
+    <node id="lunch">
+      <data key="d0">EXPERIENCE</data>
+      <data key="d1">791</data>
+      <data key="d2">0.216595</data>
+    </node>
+    <node id="fan">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">267</data>
+      <data key="d2">0.243417</data>
+    </node>
+    <node id="back">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">16</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="sugar">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">353</data>
+      <data key="d2">0.223774</data>
+    </node>
+    <node id="philadelphia">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">102</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="cream">
+      <data key="d0">FOOD</data>
+      <data key="d1">1030</data>
+      <data key="d2">0.246366</data>
+    </node>
+    <node id="special">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">434</data>
+      <data key="d2">0.225404</data>
+    </node>
+    <node id="food">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">4234</data>
+      <data key="d2">0.16901</data>
+    </node>
+    <node id="asian">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">42</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="give">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">684</data>
+      <data key="d2">0.189895</data>
+    </node>
+    <node id="tampa">
+      <data key="d0">CONCEPT</data>
+      <data key="d1">166</data>
+      <data key="d3">0</data>
+    </node>
+    <edge source="kind" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">20</data>
+      <data key="d6">0.7065</data>
+      <data key="d7">0.023747</data>
+      <data key="d8">20</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="vietnamese" target="coffee">
+      <data key="d4">described_as</data>
+      <data key="d5">17</data>
+      <data key="d6">5.6172</data>
+      <data key="d7">0.019789</data>
+      <data key="d8">17</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="vietnamese" target="food">
+      <data key="d4">described_as</data>
+      <data key="d5">19</data>
+      <data key="d6">5.8239</data>
+      <data key="d7">0.022427</data>
+      <data key="d8">17</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="vietnamese" target="restaurant">
+      <data key="d4">described_as</data>
+      <data key="d5">8</data>
+      <data key="d6">6.8438</data>
+      <data key="d7">0.007916</data>
+      <data key="d8">8</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="vietnamese" target="sandwich">
+      <data key="d4">described_as</data>
+      <data key="d5">6</data>
+      <data key="d6">5.552</data>
+      <data key="d7">0.005277</data>
+      <data key="d8">5</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="chicago" target="like">
+      <data key="d4">connected_to</data>
+      <data key="d5">2</data>
+      <data key="d6">3.0489</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="long" target="line">
+      <data key="d4">described_as</data>
+      <data key="d5">56</data>
+      <data key="d6">0.3919</data>
+      <data key="d7">0.07124</data>
+      <data key="d8">54</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="room" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">22</data>
+      <data key="d6">1.7187</data>
+      <data key="d7">0.026385</data>
+      <data key="d8">21</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="bit" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">22</data>
+      <data key="d6">0.4113</data>
+      <data key="d7">0.026385</data>
+      <data key="d8">22</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="tucson" target="shop">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.222</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="tucson" target="area">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.6905</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="tucson" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">3</data>
+      <data key="d6">6.8944</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="tucson" target="visit">
+      <data key="d4">relates_to</data>
+      <data key="d5">3</data>
+      <data key="d6">5.0805</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="friend" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">42</data>
+      <data key="d6">1.1224</data>
+      <data key="d7">0.05277</data>
+      <data key="d8">42</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="thing" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">35</data>
+      <data key="d6">0.6656</data>
+      <data key="d7">0.043536</data>
+      <data key="d8">33</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="restaurant" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">30</data>
+      <data key="d6">0.7245</data>
+      <data key="d7">0.036939</data>
+      <data key="d8">29</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="brunch" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">22</data>
+      <data key="d6">0.9336</data>
+      <data key="d7">0.026385</data>
+      <data key="d8">21</data>
+      <data key="d9">EXPERIENCE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="portion" target="size">
+      <data key="d4">associated_with</data>
+      <data key="d5">46</data>
+      <data key="d6">2.2696</data>
+      <data key="d7">0.058047</data>
+      <data key="d8">42</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="milk" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">25</data>
+      <data key="d6">0.9548</data>
+      <data key="d7">0.030343</data>
+      <data key="d8">24</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="milk" target="tea">
+      <data key="d4">associated_with</data>
+      <data key="d5">169</data>
+      <data key="d6">1.4244</data>
+      <data key="d7">0.220317</data>
+      <data key="d8">103</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="milk" target="caramel">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">5.3471</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="variety" target="offer">
+      <data key="d4">relates_to</data>
+      <data key="d5">16</data>
+      <data key="d6">0.1912</data>
+      <data key="d7">0.01847</data>
+      <data key="d8">16</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="variety" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">86</data>
+      <data key="d6">3.3843</data>
+      <data key="d7">0.110818</data>
+      <data key="d8">84</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="bread" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">16</data>
+      <data key="d6">0.6476</data>
+      <data key="d7">0.01847</data>
+      <data key="d8">16</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="thank" target="yelp">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">5.9248</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="caramel" target="latte">
+      <data key="d4">associated_with</data>
+      <data key="d5">13</data>
+      <data key="d6">7.4873</data>
+      <data key="d7">0.014512</data>
+      <data key="d8">13</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="caramel" target="milk">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">5.3471</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="caramel" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">6.3094</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="caramel" target="cake">
+      <data key="d4">associated_with</data>
+      <data key="d5">6</data>
+      <data key="d6">6.5828</data>
+      <data key="d7">0.005277</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="caramel" target="flavor">
+      <data key="d4">associated_with</data>
+      <data key="d5">3</data>
+      <data key="d6">5.0106</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="caramel" target="sauce">
+      <data key="d4">associated_with</data>
+      <data key="d5">6</data>
+      <data key="d6">7.7168</data>
+      <data key="d7">0.005277</data>
+      <data key="d8">6</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="caramel" target="cream">
+      <data key="d4">associated_with</data>
+      <data key="d5">3</data>
+      <data key="d6">5.488</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="caramel" target="chocolate">
+      <data key="d4">associated_with</data>
+      <data key="d5">3</data>
+      <data key="d6">5.7118</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="caramel" target="get">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">3.442</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="caramel" target="ice">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">5.0106</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="caramel" target="croissant">
+      <data key="d4">associated_with</data>
+      <data key="d5">3</data>
+      <data key="d6">6.4923</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="turkey" target="sandwich">
+      <data key="d4">associated_with</data>
+      <data key="d5">13</data>
+      <data key="d6">6.815</data>
+      <data key="d7">0.014512</data>
+      <data key="d8">12</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="turkey" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">4</data>
+      <data key="d6">7.3094</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="turkey" target="bacon">
+      <data key="d4">associated_with</data>
+      <data key="d5">17</data>
+      <data key="d6">8.4708</data>
+      <data key="d7">0.019789</data>
+      <data key="d8">12</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="turkey" target="burger">
+      <data key="d4">associated_with</data>
+      <data key="d5">7</data>
+      <data key="d6">7.8029</data>
+      <data key="d7">0.006596</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="dish" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">9</data>
+      <data key="d6">0.2173</data>
+      <data key="d7">0.009235</data>
+      <data key="d8">9</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="seat" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">16</data>
+      <data key="d6">0.7358</data>
+      <data key="d7">0.01847</data>
+      <data key="d8">16</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="couple" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">21</data>
+      <data key="d6">1.3663</data>
+      <data key="d7">0.025066</data>
+      <data key="d8">21</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="pancake" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">30</data>
+      <data key="d6">2.46</data>
+      <data key="d7">0.036939</data>
+      <data key="d8">29</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="kid" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">13</data>
+      <data key="d6">1.0742</data>
+      <data key="d7">0.014512</data>
+      <data key="d8">12</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="meat" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">10</data>
+      <data key="d6">0.8966</data>
+      <data key="d7">0.010554</data>
+      <data key="d8">10</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="high" target="quality">
+      <data key="d4">described_as</data>
+      <data key="d5">59</data>
+      <data key="d6">1.754</data>
+      <data key="d7">0.075198</data>
+      <data key="d8">58</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="sandwich" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">108</data>
+      <data key="d6">1.9393</data>
+      <data key="d7">0.139842</data>
+      <data key="d8">103</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="sandwich" target="turkey">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">4.2301</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="donut" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">47</data>
+      <data key="d6">1.7961</data>
+      <data key="d7">0.059367</data>
+      <data key="d8">43</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="customer" target="service">
+      <data key="d4">associated_with</data>
+      <data key="d5">386</data>
+      <data key="d6">0.939</data>
+      <data key="d7">0.506596</data>
+      <data key="d8">355</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">SERVICE</data>
+    </edge>
+    <edge source="location" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">55</data>
+      <data key="d6">1.1981</data>
+      <data key="d7">0.069921</data>
+      <data key="d8">53</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="size" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">8</data>
+      <data key="d6">0.222</data>
+      <data key="d7">0.007916</data>
+      <data key="d8">8</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="pecan" target="pancake">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">6.5793</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="pecan" target="coffee">
+      <data key="d4">described_as</data>
+      <data key="d5">3</data>
+      <data key="d6">3.1147</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="pecan" target="sauce">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">6.1319</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="pecan" target="get">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">3.442</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="pastry" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">18</data>
+      <data key="d6">0.7145</data>
+      <data key="d7">0.021108</data>
+      <data key="d8">18</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="mexican" target="food">
+      <data key="d4">described_as</data>
+      <data key="d5">15</data>
+      <data key="d6">5.6433</data>
+      <data key="d7">0.01715</data>
+      <data key="d8">15</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="mexican" target="breakfast">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">3.8283</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="mexican" target="coffee">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">2.5297</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="mexican" target="chocolate">
+      <data key="d4">associated_with</data>
+      <data key="d5">4</data>
+      <data key="d6">6.1268</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="mexican" target="restaurant">
+      <data key="d4">described_as</data>
+      <data key="d5">4</data>
+      <data key="d6">5.8438</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="mexican" target="place">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">2.3173</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="small" target="business">
+      <data key="d4">described_as</data>
+      <data key="d5">34</data>
+      <data key="d6">0.0689</data>
+      <data key="d7">0.042216</data>
+      <data key="d8">34</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="beignet" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">15</data>
+      <data key="d6">1.8069</data>
+      <data key="d7">0.01715</data>
+      <data key="d8">15</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="selection" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">107</data>
+      <data key="d6">3.1335</data>
+      <data key="d7">0.138522</data>
+      <data key="d8">106</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="city" target="philadelphia">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">6.1018</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="boise" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">2</data>
+      <data key="d6">6.3094</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="hour" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">15</data>
+      <data key="d6">0.3064</data>
+      <data key="d7">0.01715</data>
+      <data key="d8">15</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="day" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">45</data>
+      <data key="d6">0.6525</data>
+      <data key="d7">0.056728</data>
+      <data key="d8">44</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="water" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">8</data>
+      <data key="d6">0.2815</data>
+      <data key="d7">0.007916</data>
+      <data key="d8">8</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="happy" target="hour">
+      <data key="d4">described_as</data>
+      <data key="d5">54</data>
+      <data key="d6">1.0714</data>
+      <data key="d7">0.068602</data>
+      <data key="d8">44</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="iced" target="tea">
+      <data key="d4">described_as</data>
+      <data key="d5">56</data>
+      <data key="d6">0.7486</data>
+      <data key="d7">0.07124</data>
+      <data key="d8">52</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="iced" target="coffee">
+      <data key="d4">described_as</data>
+      <data key="d5">196</data>
+      <data key="d6">0.2841</data>
+      <data key="d7">0.255937</data>
+      <data key="d8">167</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="iced" target="latte">
+      <data key="d4">described_as</data>
+      <data key="d5">76</data>
+      <data key="d6">1.3072</data>
+      <data key="d7">0.097625</data>
+      <data key="d8">71</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="bean" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">14</data>
+      <data key="d6">1.0944</data>
+      <data key="d7">0.015831</data>
+      <data key="d8">14</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="coffee" target="shop">
+      <data key="d4">associated_with</data>
+      <data key="d5">760</data>
+      <data key="d6">0.7247</data>
+      <data key="d7">1.0</data>
+      <data key="d8">613</data>
+      <data key="d9">DRINK</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="coffee" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">162</data>
+      <data key="d6">0.8379</data>
+      <data key="d7">0.211082</data>
+      <data key="d8">156</data>
+      <data key="d9">DRINK</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="coffee" target="times">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">2.5297</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">DRINK</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="korean" target="food">
+      <data key="d4">described_as</data>
+      <data key="d5">6</data>
+      <data key="d6">4.0584</data>
+      <data key="d7">0.005277</data>
+      <data key="d8">5</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="korean" target="chicken">
+      <data key="d4">described_as</data>
+      <data key="d5">3</data>
+      <data key="d6">5.9409</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="korean" target="soup">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">6.6647</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="meal" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">43</data>
+      <data key="d6">1.8198</data>
+      <data key="d7">0.05409</data>
+      <data key="d8">43</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="biscuit" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">20</data>
+      <data key="d6">2.002</data>
+      <data key="d7">0.023747</data>
+      <data key="d8">20</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="old" target="city">
+      <data key="d4">associated_with</data>
+      <data key="d5">25</data>
+      <data key="d6">0.9239</data>
+      <data key="d7">0.030343</data>
+      <data key="d8">20</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="line" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">19</data>
+      <data key="d6">0.3874</data>
+      <data key="d7">0.022427</data>
+      <data key="d8">19</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="omg" target="say">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">4.7592</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="hot" target="chocolate">
+      <data key="d4">described_as</data>
+      <data key="d5">109</data>
+      <data key="d6">1.1939</data>
+      <data key="d7">0.141161</data>
+      <data key="d8">88</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="hot" target="sauce">
+      <data key="d4">described_as</data>
+      <data key="d5">30</data>
+      <data key="d6">0.44</data>
+      <data key="d7">0.036939</data>
+      <data key="d8">26</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="vegan" target="option">
+      <data key="d4">associated_with</data>
+      <data key="d5">38</data>
+      <data key="d6">1.2161</data>
+      <data key="d7">0.047493</data>
+      <data key="d8">36</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="space" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">16</data>
+      <data key="d6">0.879</data>
+      <data key="d7">0.01847</data>
+      <data key="d8">16</data>
+      <data key="d9">AMBIENCE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="manager" target="call">
+      <data key="d4">relates_to</data>
+      <data key="d5">6</data>
+      <data key="d6">0.1066</data>
+      <data key="d7">0.005277</data>
+      <data key="d8">6</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="manager" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">9</data>
+      <data key="d6">0.5785</data>
+      <data key="d7">0.009235</data>
+      <data key="d8">9</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="disappointed" target="customer">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">4.5759</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="experience" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">146</data>
+      <data key="d6">2.7685</data>
+      <data key="d7">0.189974</data>
+      <data key="d8">144</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="italian" target="sandwich">
+      <data key="d4">described_as</data>
+      <data key="d5">8</data>
+      <data key="d6">6.2301</data>
+      <data key="d7">0.007916</data>
+      <data key="d8">8</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="italian" target="spot">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">4.4939</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="italian" target="shop">
+      <data key="d4">described_as</data>
+      <data key="d5">4</data>
+      <data key="d6">5.222</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="italian" target="food">
+      <data key="d4">described_as</data>
+      <data key="d5">7</data>
+      <data key="d6">4.5438</data>
+      <data key="d7">0.006596</data>
+      <data key="d8">7</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="italian" target="place">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">2.3173</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="italian" target="restaurant">
+      <data key="d4">described_as</data>
+      <data key="d5">6</data>
+      <data key="d6">6.4287</data>
+      <data key="d7">0.005277</data>
+      <data key="d8">6</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="italian" target="cake">
+      <data key="d4">described_as</data>
+      <data key="d5">3</data>
+      <data key="d6">6.1678</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="italian" target="experience">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">4.5759</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="italian" target="cream">
+      <data key="d4">associated_with</data>
+      <data key="d5">4</data>
+      <data key="d6">5.903</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="italian" target="gelato">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">6.8604</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="italian" target="bakery">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">6.4225</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="italian" target="dessert">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">5.815</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="bad" target="mcdonald">
+      <data key="d4">described_as</data>
+      <data key="d5">13</data>
+      <data key="d6">7.3325</data>
+      <data key="d7">0.014512</data>
+      <data key="d8">12</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="bad" target="mcdonalds">
+      <data key="d4">described_as</data>
+      <data key="d5">9</data>
+      <data key="d6">6.9175</data>
+      <data key="d7">0.009235</data>
+      <data key="d8">9</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="bad" target="starbucks">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.7475</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="plenty" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">45</data>
+      <data key="d6">2.7514</data>
+      <data key="d7">0.056728</data>
+      <data key="d8">45</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="sauce" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">9</data>
+      <data key="d6">0.3245</data>
+      <data key="d7">0.009235</data>
+      <data key="d8">9</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="service" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">69</data>
+      <data key="d6">0.2884</data>
+      <data key="d7">0.088391</data>
+      <data key="d8">68</data>
+      <data key="d9">SERVICE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="star" target="give">
+      <data key="d4">relates_to</data>
+      <data key="d5">185</data>
+      <data key="d6">2.1772</data>
+      <data key="d7">0.241425</data>
+      <data key="d8">176</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="table" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">51</data>
+      <data key="d6">1.1801</data>
+      <data key="d7">0.064644</data>
+      <data key="d8">50</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="potato" target="fry">
+      <data key="d4">associated_with</data>
+      <data key="d5">17</data>
+      <data key="d6">0.5632</data>
+      <data key="d7">0.019789</data>
+      <data key="d8">14</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="mcdonald" target="love">
+      <data key="d4">relates_to</data>
+      <data key="d5">3</data>
+      <data key="d6">3.9182</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="mcdonald" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">2</data>
+      <data key="d6">6.3094</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="home" target="fry">
+      <data key="d4">associated_with</data>
+      <data key="d5">42</data>
+      <data key="d6">0.7801</data>
+      <data key="d7">0.05277</data>
+      <data key="d8">32</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="salad" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">24</data>
+      <data key="d6">1.276</data>
+      <data key="d7">0.029024</data>
+      <data key="d8">24</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="salad" target="sandwich">
+      <data key="d4">associated_with</data>
+      <data key="d5">43</data>
+      <data key="d6">0.004</data>
+      <data key="d7">0.05409</data>
+      <data key="d8">42</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="salad" target="soup">
+      <data key="d4">relates_to</data>
+      <data key="d5">11</data>
+      <data key="d6">0.5057</data>
+      <data key="d7">0.011873</data>
+      <data key="d8">11</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="drink" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">60</data>
+      <data key="d6">0.7306</data>
+      <data key="d7">0.076517</data>
+      <data key="d8">59</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="french" target="toast">
+      <data key="d4">described_as</data>
+      <data key="d5">199</data>
+      <data key="d6">3.2741</data>
+      <data key="d7">0.259894</data>
+      <data key="d8">159</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="french" target="fry">
+      <data key="d4">described_as</data>
+      <data key="d5">18</data>
+      <data key="d6">0.2126</data>
+      <data key="d7">0.021108</data>
+      <data key="d8">16</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="french" target="soup">
+      <data key="d4">described_as</data>
+      <data key="d5">17</data>
+      <data key="d6">0.5094</data>
+      <data key="d7">0.019789</data>
+      <data key="d8">11</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="french" target="italian">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">5.672</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="bowl" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">13</data>
+      <data key="d6">1.3952</data>
+      <data key="d7">0.014512</data>
+      <data key="d8">13</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="stl" target="area">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.6905</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="roll" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">14</data>
+      <data key="d6">1.3164</data>
+      <data key="d7">0.015831</data>
+      <data key="d8">13</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="bar" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">22</data>
+      <data key="d6">0.9391</data>
+      <data key="d7">0.026385</data>
+      <data key="d8">22</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="choice" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">35</data>
+      <data key="d6">2.2099</data>
+      <data key="d7">0.043536</data>
+      <data key="d8">35</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="enjoy" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">24</data>
+      <data key="d6">0.1682</data>
+      <data key="d7">0.029024</data>
+      <data key="d8">24</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="person" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">11</data>
+      <data key="d6">0.5304</data>
+      <data key="d7">0.011873</data>
+      <data key="d8">11</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="crepe" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">21</data>
+      <data key="d6">2.1236</data>
+      <data key="d7">0.025066</data>
+      <data key="d8">20</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="dinner" target="lunch">
+      <data key="d4">relates_to</data>
+      <data key="d5">21</data>
+      <data key="d6">0.3064</data>
+      <data key="d7">0.025066</data>
+      <data key="d8">20</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="dinner" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">20</data>
+      <data key="d6">1.6888</data>
+      <data key="d7">0.023747</data>
+      <data key="d8">20</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="carmel" target="location">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.4475</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="carmel" target="latte">
+      <data key="d4">associated_with</data>
+      <data key="d5">5</data>
+      <data key="d6">6.1088</data>
+      <data key="d7">0.003958</data>
+      <data key="d8">5</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="sweet" target="crepe">
+      <data key="d4">described_as</data>
+      <data key="d5">20</data>
+      <data key="d6">0.392</data>
+      <data key="d7">0.023747</data>
+      <data key="d8">19</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="sweet" target="treat">
+      <data key="d4">described_as</data>
+      <data key="d5">30</data>
+      <data key="d6">0.1262</data>
+      <data key="d7">0.036939</data>
+      <data key="d8">29</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="sweet" target="thai">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.6519</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="review" target="read">
+      <data key="d4">relates_to</data>
+      <data key="d5">47</data>
+      <data key="d6">1.6103</data>
+      <data key="d7">0.059367</data>
+      <data key="d8">47</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="review" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">20</data>
+      <data key="d6">0.4664</data>
+      <data key="d7">0.023747</data>
+      <data key="d8">20</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="huge" target="portion">
+      <data key="d4">described_as</data>
+      <data key="d5">15</data>
+      <data key="d6">0.356</data>
+      <data key="d7">0.01715</data>
+      <data key="d8">15</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="huge" target="fan">
+      <data key="d4">described_as</data>
+      <data key="d5">42</data>
+      <data key="d6">2.2326</data>
+      <data key="d7">0.05277</data>
+      <data key="d8">42</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="egg" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">39</data>
+      <data key="d6">1.1227</data>
+      <data key="d7">0.048813</data>
+      <data key="d8">38</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="egg" target="bacon">
+      <data key="d4">relates_to</data>
+      <data key="d5">33</data>
+      <data key="d6">0.4054</data>
+      <data key="d7">0.040897</data>
+      <data key="d8">31</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="egg" target="cook">
+      <data key="d4">relates_to</data>
+      <data key="d5">18</data>
+      <data key="d6">0.0266</data>
+      <data key="d7">0.021108</data>
+      <data key="d8">17</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cup" target="grab">
+      <data key="d4">relates_to</data>
+      <data key="d5">19</data>
+      <data key="d6">0.0772</data>
+      <data key="d7">0.022427</data>
+      <data key="d8">19</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cup" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">29</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.03562</data>
+      <data key="d8">29</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="menu" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">109</data>
+      <data key="d6">2.0923</data>
+      <data key="d7">0.141161</data>
+      <data key="d8">107</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="menu" target="item">
+      <data key="d4">associated_with</data>
+      <data key="d5">52</data>
+      <data key="d6">0.2084</data>
+      <data key="d7">0.065963</data>
+      <data key="d8">52</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="great" target="starbucks">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">2.706</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cold" target="brew">
+      <data key="d4">described_as</data>
+      <data key="d5">147</data>
+      <data key="d6">3.2237</data>
+      <data key="d7">0.191293</data>
+      <data key="d8">117</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="croissant" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">11</data>
+      <data key="d6">0.9744</data>
+      <data key="d7">0.011873</data>
+      <data key="d8">11</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="half" target="hour">
+      <data key="d4">relates_to</data>
+      <data key="d5">20</data>
+      <data key="d6">0.4133</data>
+      <data key="d7">0.023747</data>
+      <data key="d8">20</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="husband" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">55</data>
+      <data key="d6">2.72</data>
+      <data key="d7">0.069921</data>
+      <data key="d8">54</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="dutch" target="pancake">
+      <data key="d4">described_as</data>
+      <data key="d5">4</data>
+      <data key="d6">7.5793</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="dutch" target="place">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">2.3173</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="feel" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">42</data>
+      <data key="d6">1.0634</data>
+      <data key="d7">0.05277</data>
+      <data key="d8">40</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="favorite" target="starbucks">
+      <data key="d4">described_as</data>
+      <data key="d5">6</data>
+      <data key="d6">6.2551</data>
+      <data key="d7">0.005277</data>
+      <data key="d8">6</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="bakery" target="item">
+      <data key="d4">associated_with</data>
+      <data key="d5">23</data>
+      <data key="d6">0.9243</data>
+      <data key="d7">0.027704</data>
+      <data key="d8">20</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="bakery" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">11</data>
+      <data key="d6">0.7672</data>
+      <data key="d7">0.011873</data>
+      <data key="d8">10</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="parking" target="lot">
+      <data key="d4">associated_with</data>
+      <data key="d5">97</data>
+      <data key="d6">1.5632</data>
+      <data key="d7">0.12533</data>
+      <data key="d8">92</data>
+      <data key="d9">AMBIENCE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="leche" target="enjoy">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">4.5605</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="leche" target="order">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">3.0036</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">SERVICE</data>
+    </edge>
+    <edge source="leche" target="latte">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.7869</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="live" target="music">
+      <data key="d4">described_as</data>
+      <data key="d5">44</data>
+      <data key="d6">2.0615</data>
+      <data key="d7">0.055409</data>
+      <data key="d8">43</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">AMBIENCE</data>
+    </edge>
+    <edge source="nola" target="leave">
+      <data key="d4">relates_to</data>
+      <data key="d5">4</data>
+      <data key="d6">6.1548</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="nola" target="visit">
+      <data key="d4">relates_to</data>
+      <data key="d5">3</data>
+      <data key="d6">5.0805</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="nola" target="coffee">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">2.5297</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="nola" target="shop">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.222</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="greek" target="salad">
+      <data key="d4">described_as</data>
+      <data key="d5">12</data>
+      <data key="d6">7.6683</data>
+      <data key="d7">0.013193</data>
+      <data key="d8">8</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="greek" target="coffee">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">2.5297</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="greek" target="food">
+      <data key="d4">described_as</data>
+      <data key="d5">4</data>
+      <data key="d6">3.7364</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="local" target="business">
+      <data key="d4">described_as</data>
+      <data key="d5">55</data>
+      <data key="d6">1.3025</data>
+      <data key="d7">0.069921</data>
+      <data key="d8">52</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cuban" target="get">
+      <data key="d4">relates_to</data>
+      <data key="d5">4</data>
+      <data key="d6">4.442</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cuban" target="place">
+      <data key="d4">described_as</data>
+      <data key="d5">3</data>
+      <data key="d6">2.3173</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cuban" target="food">
+      <data key="d4">described_as</data>
+      <data key="d5">11</data>
+      <data key="d6">5.0584</data>
+      <data key="d7">0.011873</data>
+      <data key="d8">10</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cuban" target="sandwich">
+      <data key="d4">described_as</data>
+      <data key="d5">62</data>
+      <data key="d6">8.7219</data>
+      <data key="d7">0.079156</data>
+      <data key="d8">45</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="cuban" target="bread">
+      <data key="d4">described_as</data>
+      <data key="d5">19</data>
+      <data key="d6">8.6249</data>
+      <data key="d7">0.022427</data>
+      <data key="d8">16</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="cuban" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">4</data>
+      <data key="d6">7.3094</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cuban" target="cafe">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.8479</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cuban" target="order">
+      <data key="d4">relates_to</data>
+      <data key="d5">4</data>
+      <data key="d6">4.0036</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">SERVICE</data>
+    </edge>
+    <edge source="cuban" target="coffee">
+      <data key="d4">described_as</data>
+      <data key="d5">11</data>
+      <data key="d6">4.8517</data>
+      <data key="d7">0.011873</data>
+      <data key="d8">10</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="cuban" target="restaurant">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">4.8438</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cuban" target="pastry">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">5.5218</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="cuban" target="experience">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">4.5759</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cuban" target="toast">
+      <data key="d4">described_as</data>
+      <data key="d5">5</data>
+      <data key="d6">6.8978</data>
+      <data key="d7">0.003958</data>
+      <data key="d8">5</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="cuban" target="try">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">3.3318</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="lot" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">148</data>
+      <data key="d6">2.696</data>
+      <data key="d7">0.192612</data>
+      <data key="d8">142</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="vibe" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">61</data>
+      <data key="d6">2.9501</data>
+      <data key="d7">0.077836</data>
+      <data key="d8">61</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cool" target="vibe">
+      <data key="d4">described_as</data>
+      <data key="d5">22</data>
+      <data key="d6">0.6946</data>
+      <data key="d7">0.026385</data>
+      <data key="d8">22</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="window" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">8</data>
+      <data key="d6">0.3094</data>
+      <data key="d7">0.007916</data>
+      <data key="d8">8</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="item" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">23</data>
+      <data key="d6">1.0128</data>
+      <data key="d7">0.027704</data>
+      <data key="d8">23</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="toast" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">23</data>
+      <data key="d6">0.9205</data>
+      <data key="d7">0.027704</data>
+      <data key="d8">20</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cafe" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">34</data>
+      <data key="d6">0.9581</data>
+      <data key="d7">0.042216</data>
+      <data key="d8">34</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cafe" target="leche">
+      <data key="d4">associated_with</data>
+      <data key="d5">22</data>
+      <data key="d6">8.3073</data>
+      <data key="d7">0.026385</data>
+      <data key="d8">22</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="seating" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">48</data>
+      <data key="d6">1.7703</data>
+      <data key="d7">0.060686</data>
+      <data key="d8">48</data>
+      <data key="d9">AMBIENCE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="seating" target="area">
+      <data key="d4">associated_with</data>
+      <data key="d5">48</data>
+      <data key="d6">0.1514</data>
+      <data key="d7">0.060686</data>
+      <data key="d8">48</data>
+      <data key="d9">AMBIENCE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="boba" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">12</data>
+      <data key="d6">1.456</data>
+      <data key="d7">0.013193</data>
+      <data key="d8">11</data>
+      <data key="d9">DRINK</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="boba" target="tea">
+      <data key="d4">associated_with</data>
+      <data key="d5">30</data>
+      <data key="d6">1.0085</data>
+      <data key="d7">0.036939</data>
+      <data key="d8">25</data>
+      <data key="d9">DRINK</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="fun" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">9</data>
+      <data key="d6">0.4187</data>
+      <data key="d7">0.009235</data>
+      <data key="d8">9</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="starbucks" target="love">
+      <data key="d4">relates_to</data>
+      <data key="d5">11</data>
+      <data key="d6">5.7927</data>
+      <data key="d7">0.011873</data>
+      <data key="d8">11</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="starbucks" target="location">
+      <data key="d4">associated_with</data>
+      <data key="d5">17</data>
+      <data key="d6">7.4475</data>
+      <data key="d7">0.019789</data>
+      <data key="d8">16</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="starbucks" target="like">
+      <data key="d4">connected_to</data>
+      <data key="d5">11</data>
+      <data key="d6">5.5083</data>
+      <data key="d7">0.011873</data>
+      <data key="d8">11</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="starbucks" target="get">
+      <data key="d4">has_property</data>
+      <data key="d5">4</data>
+      <data key="d6">4.442</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="starbucks" target="coffee">
+      <data key="d4">associated_with</data>
+      <data key="d5">6</data>
+      <data key="d6">4.1147</data>
+      <data key="d7">0.005277</data>
+      <data key="d8">6</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="starbucks" target="experience">
+      <data key="d4">associated_with</data>
+      <data key="d5">8</data>
+      <data key="d6">6.5759</data>
+      <data key="d7">0.007916</data>
+      <data key="d8">8</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="starbucks" target="store">
+      <data key="d4">associated_with</data>
+      <data key="d5">3</data>
+      <data key="d6">6.1268</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="starbucks" target="cup">
+      <data key="d4">relates_to</data>
+      <data key="d5">3</data>
+      <data key="d6">5.7042</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="starbucks" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">12</data>
+      <data key="d6">8.8944</data>
+      <data key="d7">0.013193</data>
+      <data key="d8">12</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="starbucks" target="fan">
+      <data key="d4">associated_with</data>
+      <data key="d5">3</data>
+      <data key="d6">6.9409</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="starbucks" target="visit">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">4.4955</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="starbucks" target="drink">
+      <data key="d4">relates_to</data>
+      <data key="d5">4</data>
+      <data key="d6">4.8252</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="starbucks" target="know">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">4.3649</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="starbucks" target="barista">
+      <data key="d4">associated_with</data>
+      <data key="d5">3</data>
+      <data key="d6">6.217</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">SERVICE</data>
+    </edge>
+    <edge source="starbucks" target="find">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">4.256</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="butter" target="cake">
+      <data key="d4">associated_with</data>
+      <data key="d5">27</data>
+      <data key="d6">1.2252</data>
+      <data key="d7">0.032982</data>
+      <data key="d8">20</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="butter" target="pecan">
+      <data key="d4">associated_with</data>
+      <data key="d5">7</data>
+      <data key="d6">7.6072</data>
+      <data key="d7">0.006596</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="close" target="starbucks">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">5.3267</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="chocolate" target="croissant">
+      <data key="d4">associated_with</data>
+      <data key="d5">25</data>
+      <data key="d6">0.856</data>
+      <data key="d7">0.030343</data>
+      <data key="d8">23</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="chocolate" target="caramel">
+      <data key="d4">associated_with</data>
+      <data key="d5">4</data>
+      <data key="d6">6.1268</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="chocolate" target="cake">
+      <data key="d4">associated_with</data>
+      <data key="d5">29</data>
+      <data key="d6">0.1234</data>
+      <data key="d7">0.03562</data>
+      <data key="d8">26</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="chocolate" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">17</data>
+      <data key="d6">0.1496</data>
+      <data key="d7">0.019789</data>
+      <data key="d8">16</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="area" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">38</data>
+      <data key="d6">0.9612</data>
+      <data key="d7">0.047493</data>
+      <data key="d8">38</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="option" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">126</data>
+      <data key="d6">2.7225</data>
+      <data key="d7">0.163588</data>
+      <data key="d8">121</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="night" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">8</data>
+      <data key="d6">0.024</data>
+      <data key="d7">0.007916</data>
+      <data key="d8">8</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="latte" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">67</data>
+      <data key="d6">1.7869</data>
+      <data key="d7">0.085752</data>
+      <data key="d8">63</data>
+      <data key="d9">DRINK</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="chinese" target="dish">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">6.0246</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="chinese" target="food">
+      <data key="d4">described_as</data>
+      <data key="d5">5</data>
+      <data key="d6">4.0584</data>
+      <data key="d7">0.003958</data>
+      <data key="d8">5</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="chinese" target="place">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">2.3173</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="chinese" target="guy">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">6.0152</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="burger" target="cook">
+      <data key="d4">relates_to</data>
+      <data key="d5">5</data>
+      <data key="d6">0.2119</data>
+      <data key="d7">0.003958</data>
+      <data key="d8">5</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="burger" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">16</data>
+      <data key="d6">1.8256</data>
+      <data key="d7">0.01847</data>
+      <data key="d8">16</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="street" target="parking">
+      <data key="d4">associated_with</data>
+      <data key="d5">25</data>
+      <data key="d6">0.8506</data>
+      <data key="d7">0.030343</data>
+      <data key="d8">25</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">AMBIENCE</data>
+    </edge>
+    <edge source="reno" target="visit">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">4.4955</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="good" target="ethiopian">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">2.2871</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="good" target="starbucks">
+      <data key="d4">described_as</data>
+      <data key="d5">6</data>
+      <data key="d6">3.872</data>
+      <data key="d7">0.005277</data>
+      <data key="d8">6</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="good" target="omg">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">2.2871</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="good" target="cuban">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">2.2871</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="good" target="mcdonalds">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">2.2871</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">QUALITY</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="store" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">14</data>
+      <data key="d6">0.3719</data>
+      <data key="d7">0.015831</data>
+      <data key="d8">14</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="make" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">28</data>
+      <data key="d6">0.9245</data>
+      <data key="d7">0.034301</data>
+      <data key="d8">28</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="flavor" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">130</data>
+      <data key="d6">2.4025</data>
+      <data key="d7">0.168865</data>
+      <data key="d8">124</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="ordered" target="lunch">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">4.927</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="free" target="option">
+      <data key="d4">described_as</data>
+      <data key="d5">40</data>
+      <data key="d6">0.1016</data>
+      <data key="d7">0.050132</data>
+      <data key="d8">37</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="free" target="pancake">
+      <data key="d4">described_as</data>
+      <data key="d5">10</data>
+      <data key="d6">0.0125</data>
+      <data key="d7">0.010554</data>
+      <data key="d8">10</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="fry" target="chicken">
+      <data key="d4">described_as</data>
+      <data key="d5">23</data>
+      <data key="d6">0.356</data>
+      <data key="d7">0.027704</data>
+      <data key="d8">22</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="fry" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">11</data>
+      <data key="d6">0.3094</data>
+      <data key="d7">0.011873</data>
+      <data key="d8">11</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="fry" target="burger">
+      <data key="d4">relates_to</data>
+      <data key="d5">10</data>
+      <data key="d6">0.6654</data>
+      <data key="d7">0.010554</data>
+      <data key="d8">10</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="bagel" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">26</data>
+      <data key="d6">1.2746</data>
+      <data key="d7">0.031662</data>
+      <data key="d8">23</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="care" target="take">
+      <data key="d4">relates_to</data>
+      <data key="d5">46</data>
+      <data key="d6">1.1365</data>
+      <data key="d7">0.058047</data>
+      <data key="d8">46</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="large" target="selection">
+      <data key="d4">described_as</data>
+      <data key="d5">25</data>
+      <data key="d6">0.1036</data>
+      <data key="d7">0.030343</data>
+      <data key="d8">24</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="large" target="portion">
+      <data key="d4">described_as</data>
+      <data key="d5">17</data>
+      <data key="d6">0.1881</data>
+      <data key="d7">0.019789</data>
+      <data key="d8">17</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="american" target="restaurant">
+      <data key="d4">described_as</data>
+      <data key="d5">3</data>
+      <data key="d6">5.4287</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="american" target="cheese">
+      <data key="d4">described_as</data>
+      <data key="d5">11</data>
+      <data key="d6">7.2336</data>
+      <data key="d7">0.011873</data>
+      <data key="d8">10</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="american" target="breakfast">
+      <data key="d4">described_as</data>
+      <data key="d5">6</data>
+      <data key="d6">5.1502</data>
+      <data key="d7">0.005277</data>
+      <data key="d8">5</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="american" target="food">
+      <data key="d4">described_as</data>
+      <data key="d5">3</data>
+      <data key="d6">3.3214</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="ice" target="cream">
+      <data key="d4">associated_with</data>
+      <data key="d5">538</data>
+      <data key="d6">2.9169</data>
+      <data key="d7">0.707124</data>
+      <data key="d8">313</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="cheese" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">22</data>
+      <data key="d6">0.3267</data>
+      <data key="d7">0.026385</data>
+      <data key="d8">21</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cheese" target="egg">
+      <data key="d4">associated_with</data>
+      <data key="d5">91</data>
+      <data key="d6">0.8346</data>
+      <data key="d7">0.117414</data>
+      <data key="d8">82</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="bacon" target="egg">
+      <data key="d4">relates_to</data>
+      <data key="d5">55</data>
+      <data key="d6">1.1516</data>
+      <data key="d7">0.069921</data>
+      <data key="d8">52</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="bacon" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">15</data>
+      <data key="d6">0.7159</data>
+      <data key="d7">0.01715</data>
+      <data key="d8">14</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="bacon" target="turkey">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">5.8858</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="gelato" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">15</data>
+      <data key="d6">1.6905</data>
+      <data key="d7">0.01715</data>
+      <data key="d8">14</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="slow" target="mcdonald">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">6.1168</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">SERVICE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="nashville" target="area">
+      <data key="d4">associated_with</data>
+      <data key="d5">6</data>
+      <data key="d6">6.2755</data>
+      <data key="d7">0.005277</data>
+      <data key="d8">6</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="nashville" target="visit">
+      <data key="d4">relates_to</data>
+      <data key="d5">6</data>
+      <data key="d6">6.0805</data>
+      <data key="d7">0.005277</data>
+      <data key="d8">6</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="nashville" target="leave">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">5.1548</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="nashville" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">3</data>
+      <data key="d6">6.8944</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="employee" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">15</data>
+      <data key="d6">0.4025</data>
+      <data key="d7">0.01715</data>
+      <data key="d8">15</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="love" target="starbucks">
+      <data key="d4">has_property</data>
+      <data key="d5">3</data>
+      <data key="d6">3.9182</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="sunday" target="morning">
+      <data key="d4">associated_with</data>
+      <data key="d5">82</data>
+      <data key="d6">2.1816</data>
+      <data key="d7">0.105541</data>
+      <data key="d8">80</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="sunday" target="brunch">
+      <data key="d4">associated_with</data>
+      <data key="d5">19</data>
+      <data key="d6">0.7166</data>
+      <data key="d7">0.022427</data>
+      <data key="d8">19</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="beautiful" target="space">
+      <data key="d4">described_as</data>
+      <data key="d5">11</data>
+      <data key="d6">0.3157</data>
+      <data key="d7">0.011873</data>
+      <data key="d8">11</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">AMBIENCE</data>
+    </edge>
+    <edge source="ethiopian" target="coffee">
+      <data key="d4">described_as</data>
+      <data key="d5">5</data>
+      <data key="d6">3.8517</data>
+      <data key="d7">0.003958</data>
+      <data key="d8">5</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="ethiopian" target="food">
+      <data key="d4">described_as</data>
+      <data key="d5">7</data>
+      <data key="d6">4.3214</data>
+      <data key="d7">0.006596</data>
+      <data key="d8">6</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="ethiopian" target="restaurant">
+      <data key="d4">described_as</data>
+      <data key="d5">5</data>
+      <data key="d6">5.8438</data>
+      <data key="d7">0.003958</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="wife" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">42</data>
+      <data key="d6">2.8856</data>
+      <data key="d7">0.05277</data>
+      <data key="d8">41</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="time" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">158</data>
+      <data key="d6">1.276</data>
+      <data key="d7">0.205805</data>
+      <data key="d8">152</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="order" target="take">
+      <data key="d4">relates_to</data>
+      <data key="d5">251</data>
+      <data key="d6">0.063</data>
+      <data key="d7">0.328496</data>
+      <data key="d8">217</data>
+      <data key="d9">SERVICE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="place" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">214</data>
+      <data key="d6">1.0265</data>
+      <data key="d7">0.279683</data>
+      <data key="d8">206</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="green" target="tea">
+      <data key="d4">described_as</data>
+      <data key="d5">76</data>
+      <data key="d6">1.6299</data>
+      <data key="d7">0.097625</data>
+      <data key="d8">67</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="green" target="bean">
+      <data key="d4">described_as</data>
+      <data key="d5">11</data>
+      <data key="d6">0.4725</data>
+      <data key="d7">0.011873</data>
+      <data key="d8">10</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="soup" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">14</data>
+      <data key="d6">1.4947</data>
+      <data key="d7">0.015831</data>
+      <data key="d8">14</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="yelp" target="review">
+      <data key="d4">associated_with</data>
+      <data key="d5">19</data>
+      <data key="d6">8.3697</data>
+      <data key="d7">0.022427</data>
+      <data key="d8">19</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="yelp" target="use">
+      <data key="d4">relates_to</data>
+      <data key="d5">4</data>
+      <data key="d6">7.137</data>
+      <data key="d7">0.002639</data>
+      <data key="d8">4</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="yelp" target="check">
+      <data key="d4">associated_with</data>
+      <data key="d5">8</data>
+      <data key="d6">7.1548</data>
+      <data key="d7">0.007916</data>
+      <data key="d8">8</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="yelp" target="say">
+      <data key="d4">has_property</data>
+      <data key="d5">5</data>
+      <data key="d6">6.0812</data>
+      <data key="d7">0.003958</data>
+      <data key="d8">5</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="yelp" target="tell">
+      <data key="d4">has_property</data>
+      <data key="d5">2</data>
+      <data key="d6">4.8901</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="donuts" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">5</data>
+      <data key="d6">7.6314</data>
+      <data key="d7">0.003958</data>
+      <data key="d8">5</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="donuts" target="experience">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.5759</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="donuts" target="visit">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">4.4955</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="chicken" target="salad">
+      <data key="d4">associated_with</data>
+      <data key="d5">59</data>
+      <data key="d6">1.2611</data>
+      <data key="d7">0.075198</data>
+      <data key="d8">46</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="chicken" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">19</data>
+      <data key="d6">0.6266</data>
+      <data key="d7">0.022427</data>
+      <data key="d8">19</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="music" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">15</data>
+      <data key="d6">1.2051</data>
+      <data key="d7">0.01715</data>
+      <data key="d8">15</data>
+      <data key="d9">AMBIENCE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="people" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">48</data>
+      <data key="d6">0.735</data>
+      <data key="d7">0.060686</data>
+      <data key="d8">46</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="dessert" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">12</data>
+      <data key="d6">0.4227</data>
+      <data key="d7">0.013193</data>
+      <data key="d8">12</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="minute" target="wait">
+      <data key="d4">relates_to</data>
+      <data key="d5">115</data>
+      <data key="d6">0.4002</data>
+      <data key="d7">0.149077</data>
+      <data key="d8">107</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">SERVICE</data>
+    </edge>
+    <edge source="minute" target="take">
+      <data key="d4">relates_to</data>
+      <data key="d5">103</data>
+      <data key="d6">0.8153</data>
+      <data key="d7">0.133245</data>
+      <data key="d8">93</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="server" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">14</data>
+      <data key="d6">0.6573</data>
+      <data key="d7">0.015831</data>
+      <data key="d8">14</data>
+      <data key="d9">SERVICE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="new" target="years">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.4907</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="tea" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">60</data>
+      <data key="d6">1.5331</data>
+      <data key="d7">0.076517</data>
+      <data key="d8">57</data>
+      <data key="d9">DRINK</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="well" target="starbucks">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">4.4745</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="breakfast" target="sandwich">
+      <data key="d4">associated_with</data>
+      <data key="d5">230</data>
+      <data key="d6">0.379</data>
+      <data key="d7">0.300792</data>
+      <data key="d8">195</data>
+      <data key="d9">EXPERIENCE</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="breakfast" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">92</data>
+      <data key="d6">1.3429</data>
+      <data key="d7">0.118734</data>
+      <data key="d8">90</data>
+      <data key="d9">EXPERIENCE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="big" target="fan">
+      <data key="d4">described_as</data>
+      <data key="d5">54</data>
+      <data key="d6">2.0643</data>
+      <data key="d7">0.068602</data>
+      <data key="d8">53</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="thai" target="tea">
+      <data key="d4">associated_with</data>
+      <data key="d5">27</data>
+      <data key="d6">8.2625</data>
+      <data key="d7">0.032982</data>
+      <data key="d8">24</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="thai" target="boba">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">6.9738</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="thai" target="food">
+      <data key="d4">associated_with</data>
+      <data key="d5">9</data>
+      <data key="d6">4.9064</data>
+      <data key="d7">0.009235</data>
+      <data key="d8">9</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="thai" target="latte">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.7869</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="thai" target="milk">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">5.3471</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="thai" target="soup">
+      <data key="d4">associated_with</data>
+      <data key="d5">3</data>
+      <data key="d6">7.2496</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="thai" target="iced">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">5.6573</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="thai" target="sauce">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">6.1319</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="little" target="bit">
+      <data key="d4">described_as</data>
+      <data key="d5">89</data>
+      <data key="d6">0.0067</data>
+      <data key="d7">0.114776</data>
+      <data key="d8">86</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="little" target="disappointed">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">3.938</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="taste" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">70</data>
+      <data key="d6">1.3081</data>
+      <data key="d7">0.08971</data>
+      <data key="d8">68</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="nice" target="starbucks">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">3.7121</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="helpful" target="friendly">
+      <data key="d4">relates_to</data>
+      <data key="d5">94</data>
+      <data key="d6">0.7371</data>
+      <data key="d7">0.121372</data>
+      <data key="d8">93</data>
+      <data key="d9">SERVICE</data>
+      <data key="d10">SERVICE</data>
+    </edge>
+    <edge source="try" target="give">
+      <data key="d4">relates_to</data>
+      <data key="d5">125</data>
+      <data key="d6">0.0513</data>
+      <data key="d7">0.162269</data>
+      <data key="d8">120</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="shop" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">46</data>
+      <data key="d6">0.7682</data>
+      <data key="d7">0.058047</data>
+      <data key="d8">46</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="have" target="make">
+      <data key="d4">relates_to</data>
+      <data key="d5">20</data>
+      <data key="d6">0.3651</data>
+      <data key="d7">0.023747</data>
+      <data key="d8">19</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="have" target="call">
+      <data key="d4">relates_to</data>
+      <data key="d5">9</data>
+      <data key="d6">0.6152</data>
+      <data key="d7">0.009235</data>
+      <data key="d8">9</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="door" target="open">
+      <data key="d4">relates_to</data>
+      <data key="d5">25</data>
+      <data key="d6">0.1991</data>
+      <data key="d7">0.030343</data>
+      <data key="d8">22</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="espresso" target="drink">
+      <data key="d4">associated_with</data>
+      <data key="d5">64</data>
+      <data key="d6">0.232</data>
+      <data key="d7">0.081794</data>
+      <data key="d8">58</data>
+      <data key="d9">DRINK</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="espresso" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">10</data>
+      <data key="d6">0.1801</data>
+      <data key="d7">0.010554</data>
+      <data key="d8">10</data>
+      <data key="d9">DRINK</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="atmosphere" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">36</data>
+      <data key="d6">0.919</data>
+      <data key="d7">0.044855</data>
+      <data key="d8">36</data>
+      <data key="d9">AMBIENCE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cake" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">35</data>
+      <data key="d6">1.6499</data>
+      <data key="d7">0.043536</data>
+      <data key="d8">33</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="mcdonalds" target="coffee">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">2.5297</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">DRINK</data>
+    </edge>
+    <edge source="busy" target="starbucks">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">5.4225</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">AMBIENCE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="lunch" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">35</data>
+      <data key="d6">1.079</data>
+      <data key="d7">0.043536</data>
+      <data key="d8">35</data>
+      <data key="d9">EXPERIENCE</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="back" target="room">
+      <data key="d4">described_as</data>
+      <data key="d5">11</data>
+      <data key="d6">8.7631</data>
+      <data key="d7">0.011873</data>
+      <data key="d8">11</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="back" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">3</data>
+      <data key="d6">6.8944</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="back" target="area">
+      <data key="d4">described_as</data>
+      <data key="d5">5</data>
+      <data key="d6">6.0124</data>
+      <data key="d7">0.003958</data>
+      <data key="d8">5</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="back" target="door">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">6.0772</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="sugar" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">12</data>
+      <data key="d6">0.7396</data>
+      <data key="d7">0.013193</data>
+      <data key="d8">12</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="philadelphia" target="visit">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">4.4955</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="philadelphia" target="have">
+      <data key="d4">has_property</data>
+      <data key="d5">2</data>
+      <data key="d6">6.3094</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="philadelphia" target="area">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.6905</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cream" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">32</data>
+      <data key="d6">0.8799</data>
+      <data key="d7">0.039578</data>
+      <data key="d8">31</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="cream" target="cheese">
+      <data key="d4">associated_with</data>
+      <data key="d5">162</data>
+      <data key="d6">1.4468</data>
+      <data key="d7">0.211082</data>
+      <data key="d8">121</data>
+      <data key="d9">FOOD</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="special" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">24</data>
+      <data key="d6">1.2982</data>
+      <data key="d7">0.029024</data>
+      <data key="d8">24</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="food" target="have">
+      <data key="d4">relates_to</data>
+      <data key="d5">78</data>
+      <data key="d6">0.0071</data>
+      <data key="d7">0.100264</data>
+      <data key="d8">76</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="asian" target="restaurant">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">4.8438</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="asian" target="salad">
+      <data key="d4">described_as</data>
+      <data key="d5">2</data>
+      <data key="d6">5.6683</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">FOOD</data>
+    </edge>
+    <edge source="asian" target="food">
+      <data key="d4">described_as</data>
+      <data key="d5">3</data>
+      <data key="d6">3.3214</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="tampa" target="area">
+      <data key="d4">associated_with</data>
+      <data key="d5">7</data>
+      <data key="d6">6.4979</data>
+      <data key="d7">0.006596</data>
+      <data key="d8">7</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="tampa" target="local">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">5.2314</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="tampa" target="location">
+      <data key="d4">associated_with</data>
+      <data key="d5">3</data>
+      <data key="d6">5.0325</data>
+      <data key="d7">0.001319</data>
+      <data key="d8">3</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+    <edge source="tampa" target="visit">
+      <data key="d4">relates_to</data>
+      <data key="d5">2</data>
+      <data key="d6">4.4955</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">EXPERIENCE</data>
+    </edge>
+    <edge source="tampa" target="thing">
+      <data key="d4">associated_with</data>
+      <data key="d5">2</data>
+      <data key="d6">4.5985</data>
+      <data key="d7">0.0</data>
+      <data key="d8">2</data>
+      <data key="d9">CONCEPT</data>
+      <data key="d10">CONCEPT</data>
+    </edge>
+  </graph>
+</graphml>

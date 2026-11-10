@@ -1,0 +1,27 @@
+community_id,size,top_concepts,dominant_type,type_breakdown
+22,96,"have, starbucks, area, place, experience, tampa, leche, back",CONCEPT,"{'CONCEPT': 81, 'FOOD': 5, 'AMBIENCE': 5, 'SERVICE': 2, 'EXPERIENCE': 1, 'DRINK': 1, 'QUALITY': 1}"
+8,20,"cuban, italian, food, sandwich, restaurant, salad, mexican, good",CONCEPT,"{'CONCEPT': 14, 'FOOD': 4, 'QUALITY': 1, 'EXPERIENCE': 1}"
+10,9,"caramel, chocolate, sauce, pecan, cake, get, croissant, hot",CONCEPT,"{'CONCEPT': 6, 'FOOD': 2, 'QUALITY': 1}"
+4,9,"visit, philadelphia, nashville, nola, tucson, city, leave, old",CONCEPT,"{'CONCEPT': 8, 'EXPERIENCE': 1}"
+0,8,"yelp, review, say, thank, use, tell, check, read",CONCEPT,{'CONCEPT': 8}
+11,8,"fry, turkey, soup, burger, french, toast, potato, home",CONCEPT,"{'CONCEPT': 7, 'FOOD': 1}"
+1,7,"bacon, egg, cream, american, cheese, ice, cook",CONCEPT,"{'CONCEPT': 4, 'FOOD': 3}"
+13,6,"coffee, latte, shop, iced, carmel, times",CONCEPT,"{'CONCEPT': 4, 'DRINK': 2}"
+6,6,"fan, portion, large, huge, size, big",CONCEPT,{'CONCEPT': 6}
+7,6,"thai, tea, milk, boba, bean, green",CONCEPT,"{'CONCEPT': 4, 'DRINK': 2}"
+21,5,"mcdonald, mcdonalds, love, bad, slow",CONCEPT,"{'CONCEPT': 3, 'QUALITY': 1, 'SERVICE': 1}"
+17,5,"order, take, minute, care, wait",CONCEPT,"{'CONCEPT': 3, 'SERVICE': 2}"
+5,3,"brunch, sunday, morning",EXPERIENCE,"{'EXPERIENCE': 2, 'CONCEPT': 1}"
+3,3,"disappointed, little, bit",CONCEPT,{'CONCEPT': 3}
+24,3,"try, give, star",CONCEPT,{'CONCEPT': 3}
+23,3,"sweet, crepe, treat",CONCEPT,"{'CONCEPT': 2, 'QUALITY': 1}"
+18,3,"business, local, small",CONCEPT,{'CONCEPT': 3}
+20,3,"hour, happy, half",CONCEPT,{'CONCEPT': 3}
+9,2,"cold, brew",CONCEPT,"{'QUALITY': 1, 'CONCEPT': 1}"
+2,2,"line, long",CONCEPT,{'CONCEPT': 2}
+14,2,"high, quality",CONCEPT,{'CONCEPT': 2}
+12,2,"years, new",CONCEPT,{'CONCEPT': 2}
+16,2,"door, open",CONCEPT,{'CONCEPT': 2}
+15,2,"service, customer",CONCEPT,"{'SERVICE': 1, 'CONCEPT': 1}"
+19,2,"music, live",AMBIENCE,"{'AMBIENCE': 1, 'CONCEPT': 1}"
+25,2,"friendly, helpful",SERVICE,{'SERVICE': 2}
